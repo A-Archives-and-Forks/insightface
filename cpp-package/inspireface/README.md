@@ -24,6 +24,8 @@ We welcome your questions💬, they help guide and accelerate its development.
 
 ## Change Logs
 
+**`2026-07-22`** Add an Android example app.
+
 **`2025-08-03`** Add a multi-link model download channel for the Python-SDK.
 
 **`2025-06-15`** The [ErrorCode-Table](/doc/Error-Feedback-Codes.md) has been reorganized and streamlined.
@@ -69,6 +71,21 @@ We welcome your questions💬, they help guide and accelerate its development.
 The licensing of the open-source models employed by InspireFace adheres to the same requirements as InsightFace, specifying their use solely for academic purposes and explicitly prohibiting commercial applications.
 
 ## Quick Start
+
+### Try the Android Example App
+
+<p>
+  <a href="http://fir.tunm.top/pro/pz7b3dgv">
+    <img src="images/inspireface-android-example-app-download.png" alt="Scan the QR code to download the InspireFace Android example app" width="220" />
+  </a>
+</p>
+
+<p>
+  <strong>Scan the QR code to download the Android example app</strong><br />
+  Or <a href="http://fir.tunm.top/pro/pz7b3dgv">download the app directly</a>.
+</p>
+
+### Python Quick Start
 
 For Python users on **Linux and MacOS**, InspireFace can be quickly installed via pip:
 
@@ -185,7 +202,7 @@ The '**3rdparty**' directory already includes the MNN library and specifies a pa
 
 - CMake (version 3.20 or higher)
 - NDK (version 16 or higher, only required for Android) [**Optional**]
-- MNN (version 1.4.0 or higher)
+- MNN (version 3.x or higher)
 - C++ Compiler
     - Either GCC or Clang can be used (macOS does not require additional installation as Xcode is included)
         - Recommended GCC version is 4.9 or higher
